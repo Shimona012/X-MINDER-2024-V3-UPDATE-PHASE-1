@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "X-Minder",
+    "slug": "X-Minder",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Logo/Logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/nngs.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "versionCode": 3,
+      "compileSdkVersion": 33,
+            "targetSdkVersion": 33,
+            "buildToolsVersion": "33.0.0",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Logo/Logo.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.shimona.xminderApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8040ec1a-b996-4552-bcfb-7630a7d764a5"
+      }
+    }
+  }
+}
